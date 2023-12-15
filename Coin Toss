@@ -1,0 +1,29 @@
+// coin.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <cstdlib>
+#include<ctime>
+
+int main()
+{
+	char user_guess;
+	// Put a random number detector with the present time
+	std::srand(static_cast <unsigned int> (std::time(nullptr)));
+	//Call a random function and then make sure it produces 1 or 0
+	int coin_toss = std::rand() % 2;
+	//Ask a user to enter 'H' or 'T'
+		
+	std::cout << "Enter your guess (H for heads,T for Tails): ";
+	std::cin >> user_guess;
+	user_guess = toupper(user_guess);
+	
+	//Verify if the user's input matches the coin toss outcome
+	if ((user_guess == 'H' && coin_toss == 1) || (user_guess == 'T' && coin_toss == 0)) 
+	{
+		std::cout << "You Win" << std::endl;
+	}
+	else {
+		std::cout << "You Lose" << std::endl;
+	}
+	return 0;
