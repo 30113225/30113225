@@ -6,3 +6,5 @@ Skillset: Sore Skills, Flexibity, Problem Solving, Maintainance, Hard working an
 Recent projects completed: I have build a Scientific Calculator
 
 Hobby:"I like to travel and explore new things when i get time."
+
+[<img align="left" alt="Mamun Rasel | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram
